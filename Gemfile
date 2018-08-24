@@ -20,7 +20,13 @@ gem 'spree', '~> 3.6.3'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 
+
+gem 'globalize', github: 'globalize/globalize'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
+
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
